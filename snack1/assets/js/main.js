@@ -64,6 +64,7 @@ const automobili = [
 ]
 
 // Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina, nel secondo solo le auto a diesel, nel terzo il resto delle auto.
+
 const onlyBenzina = automobili.filter(function(auto){
     if (auto.alimentazione  == "benzina"){
         return auto
